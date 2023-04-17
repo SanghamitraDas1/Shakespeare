@@ -18,7 +18,7 @@ st.markdown('''
 ''')
 
 # Create a dictionary (not a list)
-books = {" ":" ","A Mid Summer Night's Dream":"Shakespeare/summer.txt","The Merchant of Venice":"Shakespeare/merchant.txt","Romeo and Juliet":"Shakespeare/romeo.txt"}
+books = {" ":" ","A Mid Summer Night's Dream":"summer.txt","The Merchant of Venice":"merchant.txt","Romeo and Juliet":"romeo.txt"}
 
 # Sidebar
 st.sidebar.header('Word Cloud Settings')
