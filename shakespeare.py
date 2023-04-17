@@ -24,7 +24,7 @@ books = {" ":" ","A Mid Summer Night's Dream":"summer.txt","The Merchant of Veni
 st.sidebar.header('Word Cloud Settings')
 max_word = st.sidebar.slider("Max Words",min_value=10, max_value=200, value=100, step=10)
 max_font = st.sidebar.slider("Size of largest Word",min_value=50,max_value=350,value=150,step=10)
-size = st.sidebar.slider("Image width",min_value=100,max_value=800,value=200,step=10)
+size = st.sidebar.slider("Image width",min_value=100,max_value=800,value=500,step=10)
 #size = st.sidebar.slider("Image width",min_value=1,max_value=8,value=4,step=1)
 random = st.sidebar.slider("Random State",min_value=20,max_value=100,value=50,step=1)
 remove_stop_words = st.sidebar.checkbox("Remove Stop Words?",value=True)
